@@ -8,6 +8,6 @@ app.listen(PORT,()=>{
 });
 
 app.get('/',(req,res)=>{
-  res.send('Hello World');
+  res.send('<h1 style="color:blue">Hello World</h1>');
 })
 
